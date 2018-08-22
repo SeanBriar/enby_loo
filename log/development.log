@@ -4055,3 +4055,23 @@ Processing by LocationsController#index as */*
 Completed 200 OK in 102ms (Views: 2.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 16:23:35 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 56ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 16:24:23 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 16:27:06 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 16:27:17 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
