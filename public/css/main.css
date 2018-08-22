@@ -1,0 +1,290 @@
+/* GENERAL */
+body, html {
+  margin: 0; }
+
+/*======= HEADER ======= */
+header {
+  background-color: black;
+  margin: 0;
+  height: 150px;
+  border-bottom: 3px solid #43a88f; }
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.headerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100px;
+  margin-top: 20px; }
+
+.logo {
+  padding-top: 15px;
+  padding-left: 20px; }
+
+.resources {
+  color: #d7d7d7;
+  height: 100px; }
+
+.about {
+  border-right: 1px solid #d7d7d7;
+  text-align: right;
+  height: 100px; }
+
+.about, .resources {
+  padding: 0px 10px; }
+
+.resourcesH6 {
+  text-decoration: underline; }
+
+h6 {
+  color: #d7d7d7;
+  margin-bottom: 0px; }
+
+h6:hover {
+  color: #43a88f;
+  cursor: pointer; }
+
+li a {
+  color: #d7d7d7;
+  font-size: 12px; }
+
+li {
+  list-style: none; }
+
+/*======= NAV =======
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: black;
+  border-top: 3px solid  $sg-teal;
+}
+
+.nav:hover {
+  background-color: $sg-teal;
+}
+/* Dropdown code
+.navBar a {
+  float: left;
+  font-size: 16px;
+  color: $sg-lightgrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: $sg-lightgrey;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: $sg-teal;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 13px;
+}
+
+.dropdownContent a {
+  float: none;
+  color: $sg-lightgrey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdownContent a:hover {
+  background-color: $sg-teal;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+/* end of dropdown code */
+/*======= MAIN =======*/
+main {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 70px; }
+
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*======== Newletter ======== */
+.newsletterDiv {
+  display: flex;
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: black;
+  color: #d7d7d7;
+  border-radius: 3px;
+  font-weight: "Source Sans Pro", sans-serif; }
+
+.email {
+  color: #d7d7d7; }
+
+.newsletter {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  margin: auto;
+  width: 65%; }
+
+.newsletterImage {
+  height: 200px;
+  border-color: white;
+  width: 35%;
+  min-width: 300px;
+  max-width: 300px; }
+
+.newsletter p {
+  margin: 0;
+  margin-top: 10px; }
+
+/*======= LOCATIONS =======*/
+.locations {
+  width: 65%;
+  height: 600px; }
+
+.locationsList {
+  -webkit-box-shadow: -11px 10px 9px -9px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -11px 10px 9px -9px rgba(0, 0, 0, 0.38);
+  box-shadow: -11px 10px 9px -9px rgba(0, 0, 0, 0.38);
+  border-radius: 3px; }
+
+.listTitle {
+  color: #43a88f;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 3px; }
+
+.add {
+  text-align: center;
+  background-color: black;
+  height: 40px;
+  border-radius: 3px; }
+
+.addBtn {
+  color: #43a88f;
+  border: none;
+  font-size: 20px;
+  padding-top: 5px; }
+
+.addBtn:hover {
+  font-size: 22px;
+  cursor: pointer; }
+
+.addRow {
+  margin: 0;
+  background-color: black; }
+
+.searchBar {
+  padding: 5px; }
+
+.searchDiv {
+  padding-top: 5px;
+  margin: 10px 0px; }
+
+.locationsTable {
+  overflow: auto;
+  height: 460px; }
+
+.locationName:hover, .seeFullListIcon:hover {
+  color: #43a88f;
+  cursor: pointer; }
+
+.trash, .editBtn {
+  color: #43a88f; }
+
+.editBtn:hover, .trash:hover {
+  cursor: pointer; }
+
+/* ====== Location Show Page ========= */
+.indivLocation {
+  padding: 0px 10px 10px 10px; }
+
+.seeFullListIcon {
+  padding: 5px 0 0 5px; }
+
+.pShowName {
+  font-size: 18px;
+  color: #43a88f;
+  padding-left: 5px; }
+
+.pShow {
+  font-size: 18px;
+  color: #43a88f;
+  padding: 5px; }
+
+.showItem {
+  color: black;
+  font-size: 15px; }
+
+.friendliness {
+  padding-left: 30px; }
+
+.thumb {
+  padding-left: 10px; }
+
+/* ======= MAP ====== */
+.map {
+  border: 1px solid gold;
+  width: 45%;
+  height: 500px; }
+
+/*====== fake ads ======= */
+.adidas {
+  width: 240px;
+  border: 1px solid lightgrey; }
+
+/*==========Footer========*/
+footer {
+  height: 70px;
+  background-color: black;
+  color: #43a88f;
+  text-align: center;
+  margin-top: 20px; }
+  footer .container {
+    padding-top: 15px; }
+    footer .container a {
+      color: #43a88f; }
+    footer .container img {
+      height: 20px; }
+
+/* CREDITS */
+/* Logo created at Wix.com */
+/* Box shadow created at https://www.cssmatic.com/box-shadow */
+
+/*# sourceMappingURL=main.css.map */

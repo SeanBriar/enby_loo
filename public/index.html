@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- React CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.3.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.3.2/umd/react-dom.production.min.js"></script>
+    <!-- Babel CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel" src='js/locationsList.js'></script>
+    <script type="text/babel" src='js/location.js'></script>
+    <script type="text/babel" src='js/locationsForm.js'></script>
+    <script type="text/babel" src='js/app.js'></script>
+    <!-- Materialize CDN -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- google icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>EnbyLoo</title>
+  </head>
+  <body>
+    <div id='container'>
+    <!-- header -->
+    <header>
+      <div class="headerContent">
+        <div class='logo'>
+          <img class='logoImage' src='assets/logo.png' />
+        </div>
+        <div class='headerLinks'>
+          <div class="about">
+            <h6>About</h6>
+            <h6>Contact</h6>
+            <h6>Contribute</h6>
+          </div>
+          <div class="resources">
+            <h6 class='resourcesH6'>Resources</h6>
+              <li>
+                <a target="_blank" href="http://lifeoutsidethebinary.com/">LifeOutsideTheBinary</a>
+              </li>
+              <li>
+                <a  target="_blank" href="https://genderqueer.me/">GenderQueer.me</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.refugerestrooms.org/">Refuge Restooms</a>
+              </li>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class='newsletterDiv'>
+
+          <img class='newsletterImage responsive-img' src='assets/coupleImage.png' />
+
+        <div class='newsletter'>
+          <p>
+            Don't miss out on our latest info
+            <br />Sign Up For Our NewsLetter!
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate email">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right"></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </p>
+        </div>
+      </div>
+
+      <div class='mainContent'>
+        <div class='locations'>
+          <!-- React components here -->
+        </div>
+        <!-- fake ads -->
+        <div class='ads'>
+          <img src="assets/ads2.png" class="adidas responsive-img" />
+          <br />
+          <br />
+          <img class='responsive-img' src='assets/ads.png' />
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-copyright center-align valign-wrapper">
+        <div class="container">created with <img class='enbyHeart' src='assets/enbyHeart.png' /> by <a class="nameLink" href="https://github.com/SeanBriar" target="_blank">Sean Briar</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</div>
+</html>
