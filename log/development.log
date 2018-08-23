@@ -4738,3 +4738,33 @@ Processing by LocationsController#index as */*
 Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:40:37 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:40:41 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:41:12 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:41:25 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:41:40 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:41:47 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
