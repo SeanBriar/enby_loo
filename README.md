@@ -2,12 +2,15 @@
 
 EnbyLoo is an app designed to help non-binary, trans*, and gender non-conforming folks find all-gender restrooms in the Sacramento area. The app features a search function and a map to help make finding locations easier. 
 
+Check it out here: https://enby-loo.herokuapp.com/
+
 ### Technologies Used
 - Ruby on Rails backend
 - Postgres database
 - React frontend
 - Sass styling
 - Route testing with Postman
+- Deployed on Heroku
 
 ### Methods
 The first step to creating this app was to build the backend and seed the database. I then tested all the routes with Postman and made sure the backend was correct. After that I moved on to the front end where I created a wireframe and general page layout. First I wrote static React components, and then later made them functional with functions ands state. As the process went on I styled with CSS and then with Sass. 
