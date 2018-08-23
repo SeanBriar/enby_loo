@@ -4592,3 +4592,149 @@ LINE 1: SELECT * FROM locations;
 app/models/location.rb:12:in `exec'
 app/models/location.rb:12:in `all'
 app/controllers/locations_controller.rb:6:in `index'
+Started GET "/locations/" for 127.0.0.1 at 2018-08-23 11:00:54 -0700
+Processing by LocationsController#index as */*
+  Parameters: {"location"=>{}}
+Completed 200 OK in 654ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:04:26 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 254ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:04:55 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:05:24 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 19ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:05:35 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 112ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:05:56 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:08:13 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:08:15 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:08:51 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:08:58 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:09:07 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:15:39 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:16:11 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:16:43 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 69ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:16:45 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:17:02 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:17:10 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:18:37 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:19:01 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:19:18 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:19:42 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:19:51 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:23:53 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:24:07 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:24:24 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:25:03 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:32:20 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:32:47 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 16ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 12:33:52 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+

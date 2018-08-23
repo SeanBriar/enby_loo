@@ -10,6 +10,16 @@ body, html {
   margin: 0;
 }
 
+@media (max-width: 700px) {
+  p {
+    font-size: 12px;
+  }
+  .headerLinks {
+    div {
+      font-size: 12px;
+    }
+  }
+}
 /*======= HEADER ======= */
 header {
  background-color: black;
@@ -30,10 +40,11 @@ header {
   align-items: flex-start;
   height: 100px;
   margin-top: 20px;
+  padding-right: 20px
 }
 .logo {
   padding-top: 15px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .resources {
@@ -86,14 +97,24 @@ main {
   flex-direction: row;
 }
 
+/* ======== Banner ======== */
+
 .banner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 250px;
   margin: 10px 10px 20px 10px;
-  align-items: center;
+  align-items: baseline;
+  .adidas {
+    width: 220px;
+    height: 220px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
 }
+
 /*======== Newletter ======== */
 .newsletterDiv {
   display: flex;
@@ -261,13 +282,6 @@ main {
 
 /*====== fake ads ======= */
 
-.adidas {
-  width: 240px;
-  height: 240px;
-  border: 1px solid lightgrey;
-  margin-top: 10px;
-  margin-right: 30px;
-}
 
 /*==========Footer========*/
 footer {
