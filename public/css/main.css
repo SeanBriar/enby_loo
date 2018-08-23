@@ -58,14 +58,23 @@ li {
 /*======= MAIN =======*/
 main {
   font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  margin-top: 20px; }
 
 .mainContent {
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
+  flex-direction: row; }
+
+.banner {
+  display: flex;
   flex-direction: row;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  justify-content: space-around;
+  height: 250px;
+  margin: 10px 10px 20px 10px;
+  align-items: center; }
 
 /*======== Newletter ======== */
 .newsletterDiv {
@@ -102,7 +111,7 @@ main {
 
 /*======= LOCATIONS =======*/
 .locations {
-  width: 65%;
+  width: 55%;
   height: 600px; }
 
 .locationsList {
@@ -201,16 +210,13 @@ main {
 .thumb {
   padding-left: 10px; }
 
-/* ======= MAP ====== */
-.map {
-  border: 1px solid gold;
-  width: 45%;
-  height: 500px; }
-
 /*====== fake ads ======= */
 .adidas {
   width: 240px;
-  border: 1px solid lightgrey; }
+  height: 240px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  margin-right: 30px; }
 
 /*==========Footer========*/
 footer {
