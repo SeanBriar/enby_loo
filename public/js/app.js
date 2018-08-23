@@ -125,7 +125,7 @@ handleUpdateSubmit (location) {
     return (
       <div className='locationsList'>
          <div className="add">
-         {this.state.locationsListIsVisible ? <p className='addBtn' onClick={()=>this.toggleState('addLocationIsVisible', 'locationsListIsVisible')}>Add a Location</p> : ''}
+         {this.state.locationsListIsVisible ? <p className='addBtn right' onClick={()=>this.toggleState('addLocationIsVisible', 'locationsListIsVisible')}>Add a Location</p> : ''}
          </div>
 
 

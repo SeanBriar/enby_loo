@@ -46,6 +46,13 @@ class LocationsForm extends React.Component {
   render() {
     return (
       <div className="row">
+      <div className='cancelBtn'>
+      {this.props.editLocationIsVisible ?
+          <i className="material-icons seeFullListIcon"  onClick={()=>this.props.toggleState('locationsListIsVisible', 'editLocationIsVisible', 'locationIsVisible')}>arrow_back</i>
+        :
+          <i className="material-icons seeFullListIcon"  onClick={()=> this.props.toggleState('locationsListIsVisible', 'addLocationIsVisible')}>arrow_back</i>
+      }
+      </div>
         <form className="col s12" onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="input-field col s6">
@@ -132,16 +139,9 @@ class LocationsForm extends React.Component {
        </div>
      </div>
      <div>
-      <input type='submit' value='Submit' />
+      <input className="submit" type='submit' value='Submit' />
     </div>
    </form>
-     <div className='cancelBtn'>
-     {this.props.editLocationIsVisible ?
-       <button onClick={()=>this.props.toggleState('locationsListIsVisible', 'editLocationIsVisible', 'locationIsVisible')}>Cancel</button>
-       :
-       <button className='cancel' onClick={()=> this.props.toggleState('locationsListIsVisible', 'addLocationIsVisible')}>Cancel</button>
-      }
-     </div>
    </div>
     )
   }
