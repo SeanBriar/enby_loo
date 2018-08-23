@@ -4535,3 +4535,31 @@ Processing by LocationsController#index as */*
 Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/locations" for 127.0.0.1 at 2018-08-22 18:17:00 -0700
+Processing by LocationsController#create as HTML
+  Parameters: {"id"=>"", "name"=>"Test", "address"=>"Test", "city"=>"Test", "state"=>"CA", "directions"=>"In the back, you must be 18", "ada"=>"no", "cleanliness"=>"2", "staff_friendliness"=>"5", "location"=>{"id"=>"", "name"=>"Test", "address"=>"Test", "city"=>"Test", "state"=>"CA", "directions"=>"In the back, you must be 18", "ada"=>"no", "cleanliness"=>"2", "staff_friendliness"=>"5"}}
+Completed 200 OK in 365ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/locations/4" for 127.0.0.1 at 2018-08-22 18:17:31 -0700
+Processing by LocationsController#delete as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 150ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/locations/21" for 127.0.0.1 at 2018-08-22 18:17:33 -0700
+Processing by LocationsController#delete as */*
+  Parameters: {"id"=>"21"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 18:17:37 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2018-08-22 18:18:11 -0700
+Processing by LocationsController#index as */*
+Completed 200 OK in 42ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
