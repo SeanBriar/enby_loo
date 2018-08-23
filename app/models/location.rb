@@ -1,6 +1,11 @@
 class Location
   # connect to postgres
-  DB = PG.connect({:host => "localhost", :port => 5432, :dbname => 'enbyloo_locations'})
+  if(ENV['DATABASE_URL'])
+       uri = URI.parse(ENV['DATABASE_URL'])
+       DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
+   else
+       DB = PG.connect(host: "localhost", port: 5432, dbname: 'enbyloo_locations')
+   end
 
   # INDEX
   def self.all
@@ -68,9 +73,6 @@ class Location
 
   # UPDATE
   def self.update(id, opts)
-    p '===================================================='
-    p opts
-    p id
     results = DB.exec(
       <<-SQL
         UPDATE locations

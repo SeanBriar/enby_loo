@@ -4563,3 +4563,32 @@ Processing by LocationsController#index as */*
 Completed 200 OK in 42ms (Views: 26.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/locations" for 127.0.0.1 at 2018-08-23 10:14:23 -0700
+Processing by LocationsController#index as */*
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "locations" does not exist
+LINE 1: SELECT * FROM locations;
+                      ^
+):
+  
+app/models/location.rb:12:in `exec'
+app/models/location.rb:12:in `all'
+app/controllers/locations_controller.rb:6:in `index'
+Started GET "/locations/" for 127.0.0.1 at 2018-08-23 10:16:46 -0700
+Processing by LocationsController#index as */*
+  Parameters: {"location"=>{}}
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "locations" does not exist
+LINE 1: SELECT * FROM locations;
+                      ^
+):
+  
+app/models/location.rb:12:in `exec'
+app/models/location.rb:12:in `all'
+app/controllers/locations_controller.rb:6:in `index'
