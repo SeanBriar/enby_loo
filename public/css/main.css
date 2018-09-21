@@ -12,13 +12,14 @@ body, html {
 header {
   background-color: black;
   margin: 0;
-  height: 150px;
+  height: 175px;
   border-bottom: 3px solid #43a88f; }
 
 .headerContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 150px; }
 
 .headerLinks {
   display: flex;
@@ -61,6 +62,14 @@ li a {
 
 li {
   list-style: none; }
+
+.subHeading {
+  color: #43a88f;
+  font-style: italic;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  margin: 0; }
 
 /*======= MAIN =======*/
 main {

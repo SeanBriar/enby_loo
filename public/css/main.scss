@@ -24,7 +24,7 @@ body, html {
 header {
  background-color: black;
  margin: 0;
- height: 150px;
+ height: 175px;
  border-bottom: 3px solid $sg-teal;
 }
 
@@ -32,6 +32,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 150px;
 }
 
 .headerLinks {
@@ -80,6 +81,15 @@ li a {
 
 li {
   list-style: none;
+}
+
+.subHeading {
+  color: $sg-teal;
+  font-style: italic;
+  font-family: $sg-font;
+  font-size: 20px;
+  padding-left: 100px;
+  margin: 0;
 }
 
 /*======= MAIN =======*/
